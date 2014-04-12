@@ -1,0 +1,43 @@
+﻿/*-----------------------------------------------------------------------------------------------
+Project Name: | Lactum Creative
+Description:  | Ipad App
+Company:      | autologicmedia
+Company URI   | http://autologicmedia.com
+Author:       | Jeffrey B. Turingan
+Author URI:   | http://autologicmedia.com/
+License:      | GNU General Public License v2.0
+License URI:  | http://www.gnu.org/licenses/gpl-2.0.html
+------------------------------------------------------------------------------------------------*/
+
+body { margin: 0;padding: 0; font-family: Arial, Helvetica, sans-serif;font-size: 12px; line-height: 18px; background-color:#00afe8}
+a { cursor: pointer;-webkit-tap-highlight-color: rgba(0,0,0,0);}
+a,img { border: 0;outline-width:0;}
+#wrapper { width: 1024px; height:768px; margin: 0 auto; overflow: hidden;position: relative;background: #00afe8;}
+.slide { width: 1024px; height: 768px; margin: 0 auto; overflow: hidden;position: absolute;left: 0;top: 0; display: block }
+
+#p0 { background: url('images/cover.jpg') left top;display: block;z-index: 11}
+#p1 { background: url('images/p1.jpg') left top;z-index: 10}
+#p2 { background: url('images/p2.jpg') left top}
+#p3 { background: url('images/p3.jpg') left top}
+#p4 { background: url('images/p4.jpg') left top}
+#p8 { background: url('images/p8.jpg') left top;z-index: 7}
+#p9 { background: url('images/p9.jpg') left top;z-index: 6}
+#p10 { background: url('images/p10.jpg') left top;z-index: 5}
+
+.start {display: block; width: 196px;height: 84px; position: absolute;left:690px;top: 469px;}
+.prev { display: block; width: 56px;height: 56px; position: absolute;left:752px;bottom: 32px;background: url('images/prev.png') center top;display: none }
+.next { display: block; width: 56px;height: 56px; position: absolute;left:910px;bottom: 32px;background: url('images/next.png') center top;display: none }
+.play { display: block; width: 79px;height: 79px; position: absolute;left:820px;bottom: 20px;background: url('images/play.png') center top;display: none }
+.home { display: block; width: 79px;height: 79px; position: absolute;left:820px;bottom: 20px;background: url('images/home.png') center top;display: none }
+
+.v1 { width: 1024px; height: 768px; margin: 0 auto; overflow: hidden;position: absolute ;left: 0;top: 0; display: block;background: url('images/p2.jpg') left top;z-index: 9}
+.v1 img { display: none;position: absolute;left: 0;bottom: 0}
+.v2 { width: 1024px; height: 768px; margin: 0 auto; overflow: hidden;position: absolute ;left: 0; top: 0; display: block;background: url('images/p5.jpg') left top;z-index: 8}
+.v2 img { display: none;position: absolute;}
+#p5 {left: 279px;top:434px;display: block}
+#p6 {left: 262px;top:444px;}
+#p7 {left: 262px;top:444px;}
+
+
+.pyramid { position: absolute;left:290px; top: 0;display: none }
+.band { position: absolute;left: 0;bottom:0;display: block!important}
