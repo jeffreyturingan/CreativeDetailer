@@ -133,8 +133,8 @@ $(document).ready(function() {
 		$('#p8').fadeOut(500);
 		$('#p9').fadeIn(1000,function() {
 			document.getElementById('s5').play();
-			$('#p9 a').delay(7500).fadeIn(500);
-			setTimeout(function() {$('.pyramid').fadeIn(800);}, 6000);
+			$('#p9 a').delay(8000).fadeIn(500);
+			setTimeout(function() {$('.pyramid').fadeIn(800);}, 5200);
 		});
 		$('#p8,#p8 a').removeAttr('style');
 	});
@@ -147,9 +147,9 @@ $(document).ready(function() {
 	});
 	$('#p9 .play').live('click',function() {
 		document.getElementById('s5').play();
-		$('#p9 a').fadeOut(300).delay(7500).fadeIn(500);
+		$('#p9 a').fadeOut(300).delay(8000).fadeIn(500);
 		$('.pyramid').fadeOut(100,function() {
-			setTimeout(function() {$('.pyramid').fadeIn(800);}, 5700);
+			setTimeout(function() {$('.pyramid').fadeIn(800);}, 5100);
 		});
 	});
 	$('#p9 .next').live('click',function() {
@@ -163,8 +163,8 @@ $(document).ready(function() {
 	$('#p10 .prev').live('click',function() {
 		$('#p9').fadeIn(500,function() {
 			document.getElementById('s5').play();
-			$('#p9 a').delay(7500).fadeIn(500);
-			setTimeout(function() {$('.pyramid').fadeIn(800);}, 5700);
+			$('#p9 a').delay(8000).fadeIn(500);
+			setTimeout(function() {$('.pyramid').fadeIn(800);}, 5100);
 		});
 		$('#p10,#p10 a').removeAttr('style');
 	});
