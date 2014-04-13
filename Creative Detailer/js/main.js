@@ -1,4 +1,4 @@
-﻿$(document).ready(function() {
+$(document).ready(function() {
 	document.body.addEventListener('touchmove', function(e) {
 	  // This prevents native scrolling from happening.
 	  e.preventDefault();
@@ -164,6 +164,7 @@
 		$('#p9').fadeIn(500,function() {
 			document.getElementById('s5').play();
 			$('#p9 a').delay(7500).fadeIn(500);
+			setTimeout(function() {$('.pyramid').fadeIn(800);}, 5700);
 		});
 		$('#p10,#p10 a').removeAttr('style');
 	});
